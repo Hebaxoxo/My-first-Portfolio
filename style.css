@@ -1,0 +1,270 @@
+body {
+  background-color: #F8EDE3;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.navbar h1 {
+  border: 1px white;
+  display: inline-block;
+  padding-right: 200px;
+  color: white;
+  font-size: 30px;
+  font-family: serif;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 50px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav {
+  top: 0%;
+  width: 100%;
+  background-color: #D0B8A8;
+  max-height: 20%
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  left:0;
+  margin-left: 0;
+
+}
+
+img {
+  height: 10%;
+  width: 10%;
+}
+.Top{
+}
+.Top h1{
+  color: #7D6E83;
+  text-align: center;
+}
+.Top h4{
+  text-align: center;
+  color: #66536C;
+
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.About-Me{
+  /*background-color: #D0B8A8;*/
+  background: url('Hi4.jpeg');
+  padding: 20px;
+  color: white;
+  text-align: center;
+  width: 100%;
+
+}
+.About-Me h3,#h2o {
+  filter: drop-shadow( 1px 1px 3px #6c6c6c);
+}
+
+.desedit{
+  list-style: square;
+  padding-bottom: 10px;
+  filter: drop-shadow( 1px 1px 2px black);
+
+}
+.Skills{
+  width: 100%;
+}
+.column{
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 30%;
+  display: inline-block;
+  margin-left: 20px;
+  border-radius: 5px;
+  filter: drop-shadow( 1px 1px 10px black);
+  overflow: hidden;
+}
+#creativedesign{
+  width: 30%;
+  padding-left: -500;
+  display: block;
+  margin-left: 70px;
+  margin-right: auto;
+}
+#col1{
+  background: url("beigeaethetic1.jpeg");
+  color: white;
+}
+#col2{
+  background: url("beigeaethetic2.jpeg");
+  color: white;
+}
+#col3{
+  background: url("icedcoffee3.png");
+  color: white;
+}
+
+#frontend{
+  width: 25%;
+}
+#softdev{
+  width: 35%;
+}
+#skill{
+  font-family: serif;
+  text-align: center;
+}
+#landingpage{
+  text-decoration: none;
+  color: black;
+}
+#titleaa{
+  text-align: left;
+}
+.titleas{
+  list-style: none;
+}
+.service, .service1{
+  background: rgb(223,211,195);
+  background: linear-gradient(180deg, rgba(223,211,195,1) 9%, rgba(208,184,168,1) 74%);
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  width: 40%;
+  margin-left: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  filter: drop-shadow( 1px 1px 5px black);
+
+}
+.project{
+  margin-bottom: 20px;
+  padding-top: 10px;
+  width: 40%;
+  margin-left: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  filter: drop-shadow( 1px 1px 10px black);
+}
+.textu{
+  color: white;
+  filter: drop-shadow( 1px 1px 2px black);
+  text-align: center;
+}
+.textme{
+  color: white;
+  filter: drop-shadow( 1px 1px 2px black);
+}
+.head2serve{
+  text-align: center;
+  color:white;
+    filter: drop-shadow( 1px 1px 2px black);
+}
+.formbutton{
+  background-color: #7D6E83;
+  color:white;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-right: 5%;
+  padding:10px;
+}
+.formbutton:hover{
+  background-color: #331E4B;
+  padding: 15px;
+}
+.samplebutton{
+  border-color: white;
+  border-style: solid;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.samplebutton:hover{
+  background-color: #808080;
+  border-color: #808080;
+}
+
+.listoflinks{
+  text-decoration: none;
+  display: inline;
+  padding-right: 15px;
+}
+.Contactme{
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+}
+.linkso{
+  color:black;
+  text-decoration: none;
+}
+.linkso:hover{
+  color:#331E4B;
+}
+#headingport{
+  color:#9D93AB;
+  padding-left: 10px;
+}
+#skillshead{
+  color:#978375;
+  padding-left: 10px;
+}
+#servicehead{
+  color:#C3A8A8;
+  padding-left: 10px;
+
+}
+#customrequestbutton{
+  background-color: #7D6E83;
+  color:white;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-right: 5%;
+  padding:10px 25px;
+}
+#customrequestbutton:hover{
+  background-color: #331E4B;
+  padding: 15px;
+
+}
+#project1:hover, #project2:hover{
+  padding:20px;
+}
+
+.giveaway{
+  background: url(giveaway.png);
+  padding: 1px;
+}
+
+#giveawaysu, #para4give{
+  text-align: center;
+  color: white;
+  filter: drop-shadow( 1px 1px 2px black);
+
+
+}
+#para4give{
+  margin: 10px;
+}
+.button4giveaway{
+  background-color: white;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  color: black;
+  margin-left: 49%;
+}
+.button4giveaway:hover{
+  background-color: #808080;
+  color:white;
+}
